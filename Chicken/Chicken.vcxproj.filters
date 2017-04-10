@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{353bdae9-8b02-4bd7-913e-4b2f769a968f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OnRecv">
+      <UniqueIdentifier>{f45e0305-2e91-4f35-9121-244ff0144b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{46e0485a-0214-464d-a09a-6717ee855558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CMD_GetFile.cpp">
+      <Filter>OnRecv</Filter>
+    </ClCompile>
+    <ClCompile Include="CMD_File.cpp">
+      <Filter>OnRecv</Filter>
+    </ClCompile>
+    <ClCompile Include="CMD_Device.cpp">
+      <Filter>OnRecv</Filter>
+    </ClCompile>
+    <ClCompile Include="CMD_System.cpp">
+      <Filter>OnRecv</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceControl.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="SScmdPipe.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="SSservice.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="SSprotocol.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="SSsocket.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="CMD_GetScreen.cpp">
+      <Filter>OnRecv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SSsocket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="SSprotocol.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="SSP_OnRecv.h">
+      <Filter>OnRecv</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceControl.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="SScmdPipe.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="SSservice.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
